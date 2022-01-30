@@ -1,0 +1,25 @@
+{
+  "name": "job-board",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "shadow-cljs watch app --config-merge config/dev.edn",
+    "release": "shadow-cljs release app --config-merge config/prod.edn",
+    "twdev": "npx tailwindcss -i ./src/css/main.css -o ./public/css/main.css --watch\n",
+    "pom": "shadow-cljs pom",
+    "clean": "rm -rf target && rm -rf public/js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "shadow-cljs": "^2.16.12",
+    "tailwindcss": "^3.0.18"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
