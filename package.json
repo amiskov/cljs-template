@@ -1,6 +1,6 @@
 {
-  "name": "job-board",
-  "version": "1.0.0",
+  "name": "cljs-template",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
