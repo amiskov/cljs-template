@@ -21,7 +21,7 @@ npm run twdev
 Run `npm run pom` to generate `pom.xml` file for better project indexing.
 
 ## Dev Tools
-To use re-frame-10x press <kbd>Ctrl</kbd>+<kbd>
+To show re-frame-10x panel press <kbd>Ctrl</kbd>+<kbd>H</kbd>.
 
 ## Deploy to GitHub Pages
 1. Create `gh-pages` branch in your repo.
