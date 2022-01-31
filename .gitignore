@@ -1,6 +1,15 @@
+# Build Tools
 node_modules/
 .shadow-cljs/
+
+# IntelliJ/Cursive
 .idea/
-public/js/
-public/css/*.map
 pom.xml
+
+# JavaScript
+public/js/*
+!public/js/.gitkeep
+
+# CSS
+public/css/*.map
+public/css/main.css
