@@ -3,7 +3,13 @@
 @tailwind utilities;
 
 body {
-  background: #ADD8E6;
-  color: white;
-  margin: 20px;
+    background: #ADD8E6;
+    color: white;
+    margin: 20px;
+}
+
+@layer components {
+    .btn {
+        @apply bg-amber-50 font-bold px-3 py-0.5 rounded text-center text-black;
+    }
 }

@@ -1,5 +1,9 @@
 (ns app.db
-  (:require [shadow.resource :as rc]
-            [reagent.core :as r]))
+  (:require [re-frame.core :as rf]))
 
-(def db (r/atom {}))
+(def init-db {:counter 0})
+
+(rf/reg-event-db
+  :initialize-db
+  (fn [_ _]
+    init-db))
