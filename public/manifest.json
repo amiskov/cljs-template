@@ -1,0 +1,25 @@
+{
+  "short_name": "CLJS Template",
+  "name": "CLJS template",
+  "icons": [
+    {
+      "src": "/img/clojure.svg",
+      "type": "image/svg+xml",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/img/clojure.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": "/?source=pwa",
+  "background_color": "#ADD8E6",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#ADD8E6",
+  "shortcuts": [],
+  "description": "CLJS Template",
+  "screenshots": []
+}

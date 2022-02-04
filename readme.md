@@ -1,10 +1,13 @@
-# Basic ClojureScript App Template
+# ClojureScript App Template
+Basic setup for tinkering with CLJS browser applications. Not intended for production use.
+
 What's inside:
 
 - shadow-cljs
 - Reagent
 - re-frame + tools for development/debugging
 - Tailwind CSS
+- Very basic PWA setup (uncomment the code in `index.html` to use manifest and ServiceWorker)
 
 ## Installation
 ```shell
