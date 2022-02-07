@@ -10,6 +10,7 @@ set -e
 
 # build
 npm run clean && npm run release
+npm run clean && npm run release && npm run twprod
 
 # navigate into the build output directory
 cd public

@@ -7,9 +7,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "shadow-cljs watch app --config-merge config/dev.edn",
     "release": "shadow-cljs release app --config-merge config/prod.edn",
-    "twdev": "npx tailwindcss -i ./src/css/main.css -o ./public/css/main.css --watch\n",
+    "twdev": "npx tailwindcss -i ./src/css/main.css -o ./public/css/main.css --watch",
+    "twprod": "npx tailwindcss -i ./src/css/main.css -o ./public/css/main.css --minify",
     "pom": "shadow-cljs pom",
-    "clean": "rm -rf target && rm -rf public/js"
+    "clean": "rm -rf target && rm -rf public/js/*"
   },
   "keywords": [],
   "author": "",
